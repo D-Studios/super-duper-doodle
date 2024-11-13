@@ -1,0 +1,36 @@
+[1.085s] Invoking command in '/home/user/CPE416/ros_ws/src/FinalProject': PYTHONPATH=/home/user/CPE416/ros_ws/build/FinalProject/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/CPE416/ros_ws/install/FinalProject/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/FinalProject build --build-base /home/user/CPE416/ros_ws/build/FinalProject/build install --record /home/user/CPE416/ros_ws/build/FinalProject/install.log --single-version-externally-managed install_data
+[1.421s] running egg_info
+[1.422s] creating ../../build/FinalProject/FinalProject.egg-info
+[1.423s] writing ../../build/FinalProject/FinalProject.egg-info/PKG-INFO
+[1.423s] writing dependency_links to ../../build/FinalProject/FinalProject.egg-info/dependency_links.txt
+[1.423s] writing entry points to ../../build/FinalProject/FinalProject.egg-info/entry_points.txt
+[1.424s] writing requirements to ../../build/FinalProject/FinalProject.egg-info/requires.txt
+[1.424s] writing top-level names to ../../build/FinalProject/FinalProject.egg-info/top_level.txt
+[1.424s] writing manifest file '../../build/FinalProject/FinalProject.egg-info/SOURCES.txt'
+[1.426s] reading manifest file '../../build/FinalProject/FinalProject.egg-info/SOURCES.txt'
+[1.427s] writing manifest file '../../build/FinalProject/FinalProject.egg-info/SOURCES.txt'
+[1.427s] running build
+[1.427s] running build_py
+[1.428s] creating /home/user/CPE416/ros_ws/build/FinalProject/build
+[1.428s] creating /home/user/CPE416/ros_ws/build/FinalProject/build/lib
+[1.428s] creating /home/user/CPE416/ros_ws/build/FinalProject/build/lib/FinalProject
+[1.428s] copying FinalProject/teleop_gobilda.py -> /home/user/CPE416/ros_ws/build/FinalProject/build/lib/FinalProject
+[1.428s] copying FinalProject/__init__.py -> /home/user/CPE416/ros_ws/build/FinalProject/build/lib/FinalProject
+[1.428s] running install
+[1.429s] running install_lib
+[1.429s] creating /home/user/CPE416/ros_ws/install/FinalProject/lib/python3.10/site-packages/FinalProject
+[1.430s] copying /home/user/CPE416/ros_ws/build/FinalProject/build/lib/FinalProject/teleop_gobilda.py -> /home/user/CPE416/ros_ws/install/FinalProject/lib/python3.10/site-packages/FinalProject
+[1.430s] copying /home/user/CPE416/ros_ws/build/FinalProject/build/lib/FinalProject/__init__.py -> /home/user/CPE416/ros_ws/install/FinalProject/lib/python3.10/site-packages/FinalProject
+[1.431s] byte-compiling /home/user/CPE416/ros_ws/install/FinalProject/lib/python3.10/site-packages/FinalProject/teleop_gobilda.py to teleop_gobilda.cpython-310.pyc
+[1.433s] byte-compiling /home/user/CPE416/ros_ws/install/FinalProject/lib/python3.10/site-packages/FinalProject/__init__.py to __init__.cpython-310.pyc
+[1.433s] running install_data
+[1.433s] creating /home/user/CPE416/ros_ws/install/FinalProject/share/ament_index
+[1.433s] creating /home/user/CPE416/ros_ws/install/FinalProject/share/ament_index/resource_index
+[1.433s] creating /home/user/CPE416/ros_ws/install/FinalProject/share/ament_index/resource_index/packages
+[1.433s] copying resource/FinalProject -> /home/user/CPE416/ros_ws/install/FinalProject/share/ament_index/resource_index/packages
+[1.433s] copying package.xml -> /home/user/CPE416/ros_ws/install/FinalProject/share/FinalProject
+[1.434s] running install_egg_info
+[1.436s] Copying ../../build/FinalProject/FinalProject.egg-info to /home/user/CPE416/ros_ws/install/FinalProject/lib/python3.10/site-packages/FinalProject-0.0.0-py3.10.egg-info
+[1.438s] running install_scripts
+[1.468s] writing list of installed files to '/home/user/CPE416/ros_ws/build/FinalProject/install.log'
+[1.491s] Invoked command in '/home/user/CPE416/ros_ws/src/FinalProject' returned '0': PYTHONPATH=/home/user/CPE416/ros_ws/build/FinalProject/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/CPE416/ros_ws/install/FinalProject/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/FinalProject build --build-base /home/user/CPE416/ros_ws/build/FinalProject/build install --record /home/user/CPE416/ros_ws/build/FinalProject/install.log --single-version-externally-managed install_data

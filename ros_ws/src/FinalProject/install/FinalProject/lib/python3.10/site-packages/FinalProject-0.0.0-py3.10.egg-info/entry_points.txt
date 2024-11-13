@@ -1,0 +1,3 @@
+[console_scripts]
+teleop_gobilda = FinalProject.teleop_gobilda:main
+

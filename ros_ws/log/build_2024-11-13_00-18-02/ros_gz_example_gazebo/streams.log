@@ -1,0 +1,20 @@
+[0.017s] Invoking command in '/home/user/CPE416/ros_ws/build/ros_gz_example_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/CPE416/ros_ws/install/FinalProject:/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=${IGN_GAZEBO_RESOURCE_PATH}/ros_gz_example_description/models:/home/user/CPE416/ros_ws/install/ros_gz_example_description/share _=/usr/bin/env /usr/bin/cmake --build /home/user/CPE416/ros_ws/build/ros_gz_example_gazebo -- -j8 -l8
+[0.094s] [ 25%] [32mBuilding CXX object CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o[0m
+[0.097s] [ 50%] [32mBuilding CXX object CMakeFiles/FullSystem.dir/src/FullSystem.cc.o[0m
+[0.303s] In file included from [01m[K/home/user/CPE416/ros_ws/src/ros_gz_project/ros_gz_example_gazebo/src/FullSystem.cc:28[m[K:
+[0.303s] [01m[K/home/user/CPE416/ros_ws/src/ros_gz_project/ros_gz_example_gazebo/include/ros_gz_example_gazebo/FullSystem.hh:23:10:[m[K [01;31m[Kfatal error: [m[Kgz/sim/EventManager.hh: No such file or directory
+[0.303s]    23 | #include [01;31m[K<gz/sim/EventManager.hh>[m[K
+[0.303s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.303s] compilation terminated.
+[0.306s] gmake[2]: *** [CMakeFiles/FullSystem.dir/build.make:76: CMakeFiles/FullSystem.dir/src/FullSystem.cc.o] Error 1
+[0.306s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/FullSystem.dir/all] Error 2
+[0.306s] gmake[1]: *** Waiting for unfinished jobs....
+[0.306s] In file included from [01m[K/home/user/CPE416/ros_ws/src/ros_gz_project/ros_gz_example_gazebo/src/BasicSystem.cc:28[m[K:
+[0.306s] [01m[K/home/user/CPE416/ros_ws/src/ros_gz_project/ros_gz_example_gazebo/include/ros_gz_example_gazebo/BasicSystem.hh:23:10:[m[K [01;31m[Kfatal error: [m[Kgz/sim/System.hh: No such file or directory
+[0.307s]    23 | #include [01;31m[K<gz/sim/System.hh>[m[K
+[0.307s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.307s] compilation terminated.
+[0.309s] gmake[2]: *** [CMakeFiles/BasicSystem.dir/build.make:76: CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o] Error 1
+[0.309s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/BasicSystem.dir/all] Error 2
+[0.309s] gmake: *** [Makefile:146: all] Error 2
+[0.311s] Invoked command in '/home/user/CPE416/ros_ws/build/ros_gz_example_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/CPE416/ros_ws/install/FinalProject:/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=${IGN_GAZEBO_RESOURCE_PATH}/ros_gz_example_description/models:/home/user/CPE416/ros_ws/install/ros_gz_example_description/share _=/usr/bin/env /usr/bin/cmake --build /home/user/CPE416/ros_ws/build/ros_gz_example_gazebo -- -j8 -l8

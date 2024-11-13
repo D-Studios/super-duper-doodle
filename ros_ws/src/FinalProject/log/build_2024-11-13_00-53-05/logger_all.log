@@ -1,0 +1,92 @@
+[0.698s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.698s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, lookup_in_workspace=False, cargo_args=None, clean_build=False, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f1efc2be680>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1efc2bdb10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1efc2bdb10>>, mixin_verb=('build',))
+[1.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.610s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/CPE416/ros_ws/src/FinalProject'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ament_cargo']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ament_cargo'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.702s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'FinalProject'
+[1.702s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.702s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.702s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.702s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.702s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.812s] Level 5:colcon.colcon_core.verb:set package 'FinalProject' build argument 'lookup_in_workspace' from command line to 'False'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'FinalProject' build argument 'cargo_args' from command line to 'None'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'FinalProject' build argument 'clean_build' from command line to 'False'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'FinalProject' build argument 'cmake_args' from command line to 'None'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'FinalProject' build argument 'cmake_target' from command line to 'None'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'FinalProject' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'FinalProject' build argument 'cmake_clean_cache' from command line to 'False'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'FinalProject' build argument 'cmake_clean_first' from command line to 'False'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'FinalProject' build argument 'cmake_force_configure' from command line to 'False'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'FinalProject' build argument 'ament_cmake_args' from command line to 'None'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'FinalProject' build argument 'catkin_cmake_args' from command line to 'None'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'FinalProject' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.813s] DEBUG:colcon.colcon_core.verb:Building package 'FinalProject' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/CPE416/ros_ws/src/FinalProject/build/FinalProject', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/CPE416/ros_ws/src/FinalProject', 'symlink_install': False, 'test_result_base': None}
+[1.813s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.820s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.820s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/CPE416/ros_ws/src/FinalProject' with build type 'ament_python'
+[1.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('FinalProject', 'ament_prefix_path')
+[1.826s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/share/FinalProject/hook/ament_prefix_path.ps1'
+[1.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/share/FinalProject/hook/ament_prefix_path.dsv'
+[1.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/share/FinalProject/hook/ament_prefix_path.sh'
+[1.830s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.830s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.306s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/CPE416/ros_ws/src/FinalProject'
+[3.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/CPE416/ros_ws/src/FinalProject': PYTHONPATH=/home/user/CPE416/ros_ws/src/FinalProject/build/FinalProject/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/FinalProject build --build-base /home/user/CPE416/ros_ws/src/FinalProject/build/FinalProject/build install --record /home/user/CPE416/ros_ws/src/FinalProject/build/FinalProject/install.log --single-version-externally-managed install_data
+[6.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/CPE416/ros_ws/src/FinalProject' returned '0': PYTHONPATH=/home/user/CPE416/ros_ws/src/FinalProject/build/FinalProject/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/FinalProject build --build-base /home/user/CPE416/ros_ws/src/FinalProject/build/FinalProject/build install --record /home/user/CPE416/ros_ws/src/FinalProject/build/FinalProject/install.log --single-version-externally-managed install_data
+[6.998s] Level 1:colcon.colcon_core.environment:checking '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject' for CMake module files
+[7.000s] Level 1:colcon.colcon_core.environment:checking '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject' for CMake config files
+[7.001s] Level 1:colcon.colcon_core.environment:checking '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/lib'
+[7.001s] Level 1:colcon.colcon_core.environment:checking '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/bin'
+[7.002s] Level 1:colcon.colcon_core.environment:checking '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/lib/pkgconfig/FinalProject.pc'
+[7.002s] Level 1:colcon.colcon_core.environment:checking '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/lib/python3.10/site-packages'
+[7.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('FinalProject', 'pythonpath')
+[7.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/share/FinalProject/hook/pythonpath.ps1'
+[7.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/share/FinalProject/hook/pythonpath.dsv'
+[7.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/share/FinalProject/hook/pythonpath.sh'
+[7.005s] Level 1:colcon.colcon_core.environment:checking '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/bin'
+[7.005s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(FinalProject)
+[7.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/share/FinalProject/package.ps1'
+[7.006s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/share/FinalProject/package.dsv'
+[7.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/share/FinalProject/package.sh'
+[7.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/share/FinalProject/package.bash'
+[7.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/share/FinalProject/package.zsh'
+[7.009s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/CPE416/ros_ws/src/FinalProject/install/FinalProject/share/colcon-core/packages/FinalProject)
+[7.009s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.010s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.010s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.010s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.094s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[7.094s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.094s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.094s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.097s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[7.097s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.098s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/CPE416/ros_ws/src/FinalProject/install/local_setup.ps1'
+[7.100s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/CPE416/ros_ws/src/FinalProject/install/_local_setup_util_ps1.py'
+[7.102s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/CPE416/ros_ws/src/FinalProject/install/setup.ps1'
+[7.107s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/CPE416/ros_ws/src/FinalProject/install/local_setup.sh'
+[7.108s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/CPE416/ros_ws/src/FinalProject/install/_local_setup_util_sh.py'
+[7.109s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/CPE416/ros_ws/src/FinalProject/install/setup.sh'
+[7.113s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/CPE416/ros_ws/src/FinalProject/install/local_setup.bash'
+[7.182s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/CPE416/ros_ws/src/FinalProject/install/setup.bash'
+[7.187s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/CPE416/ros_ws/src/FinalProject/install/local_setup.zsh'
+[7.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/CPE416/ros_ws/src/FinalProject/install/setup.zsh'

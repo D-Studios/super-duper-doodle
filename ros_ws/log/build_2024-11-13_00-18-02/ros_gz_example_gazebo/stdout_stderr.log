@@ -1,0 +1,18 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/FullSystem.dir/src/FullSystem.cc.o[0m
+In file included from [01m[K/home/user/CPE416/ros_ws/src/ros_gz_project/ros_gz_example_gazebo/src/FullSystem.cc:28[m[K:
+[01m[K/home/user/CPE416/ros_ws/src/ros_gz_project/ros_gz_example_gazebo/include/ros_gz_example_gazebo/FullSystem.hh:23:10:[m[K [01;31m[Kfatal error: [m[Kgz/sim/EventManager.hh: No such file or directory
+   23 | #include [01;31m[K<gz/sim/EventManager.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/FullSystem.dir/build.make:76: CMakeFiles/FullSystem.dir/src/FullSystem.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/FullSystem.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/user/CPE416/ros_ws/src/ros_gz_project/ros_gz_example_gazebo/src/BasicSystem.cc:28[m[K:
+[01m[K/home/user/CPE416/ros_ws/src/ros_gz_project/ros_gz_example_gazebo/include/ros_gz_example_gazebo/BasicSystem.hh:23:10:[m[K [01;31m[Kfatal error: [m[Kgz/sim/System.hh: No such file or directory
+   23 | #include [01;31m[K<gz/sim/System.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/BasicSystem.dir/build.make:76: CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/BasicSystem.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
